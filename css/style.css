@@ -73,6 +73,7 @@ body {
 .icon:hover {
     color: var(--gray);
     text-decoration: none;
+
 }
 
 .dab {
