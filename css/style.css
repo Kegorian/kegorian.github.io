@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow:400,600,700,800&display=swap'); /* You can find the lisence to this font in "/css/ofl.txt" */
+
+:root {
+    --custom-primary: #181425;
+    --background-color: #ECEFF5;
+}
+
+body {
+    color: var(--custom-primary);
+    font-family: 'Barlow', sans-serif;
+    background-color: var(--background-color);
+}
+
+.nav-extra-padding {
+    padding: 0.5rem 20% 0.5rem 20%;
+}
+
+.brand-text {
+    color: var(--custom-primary) !important;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.portrait-img {
+    border: 3px solid var(--custom-primary);
+    border-radius: 200px;
+    margin-top: 10%;
+}
+
+.index-title {
+    color: var(--custom-primary);
+    font-weight: bold;
+    font-size: 6em;
+    line-height: 0.75em;
+}
+
+.index-sub-title {
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1em;
+    margin: 0 15px 0 15px;
+}
+
+.nav-middle-text {
+    padding: 0 15px 0 15px;
+    margin: 0;
+    border-left: 2px solid var(--custom-primary);
+    border-right: 2px solid var(--custom-primary);
+}
+
+.title {
+    color: var(--green);
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.sub-title {
+    color: var(--blue);
+    font-size: 1.5em;
+}
+
+.para-text {
+    padding-left: 15px;
+}
+
+.icon {
+    /* color: var(--custom-secondary); */
+    color: var(--teal);
+    font-size: 3em;
+    margin: 5px;
+}
+
+.icon:hover {
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.dab {
+    background-image: url('../images/thedab.png');
+}
